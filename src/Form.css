@@ -1,0 +1,78 @@
+.FormSection {
+    margin-top: 28px;
+    position: relative;
+}
+.FormSection .HeaderForm {
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.FormSection .HeaderForm h5 {
+    color: #fff;
+    position: relative;
+    width: fit-content;
+}
+.FormSection .HeaderForm h5::before {
+    content: "";
+    position: absolute;
+    top: calc(100% + 10px);
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #BF9B30;
+}
+.FormSection .HeaderForm button {
+    padding: 10px 35px;
+}
+.FormSection .HeaderForm button,
+.FormSection .TwoButton button {
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    background-color: #BF9B30;
+
+}
+.FormSection .HeaderForm button a,
+.FormSection .TwoButton button a  {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.FormSection .row {
+    margin-bottom: 24px;
+}
+.FormSection label {
+    margin-bottom: 10px;
+    color: #fff;
+}
+.FormSection input,
+.FormSection select {
+    padding: 12px;
+    width: 100%;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    background-color: #4a4a4ab7;
+    color: #fff;
+}
+.FormSection .TwoButton {
+    justify-content: right;
+    gap: 10px;
+    margin-top: 50px;
+}
+.FormSection .TwoButton button {
+    padding: 10px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.FormSection .TwoButton .BtnOne {
+    background-color: #9d9c9c;
+
+}
+
+@media screen and (max-width: 800px) {
+.display{
+    display: none;
+}
+}

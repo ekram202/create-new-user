@@ -1,0 +1,25 @@
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.Side {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.448);
+    padding: 20px ;
+    border-radius: 8px;
+    
+}
+.Side .SideDiv {
+    margin-bottom: 48px;
+}
+.Side .SideHeader {
+    background-color: rgba(0, 0, 0, 0.408);
+    padding: 8px 0;
+    padding-left: 18px;
+    border-radius: 8px;
+}
+.Side ul {
+    list-style: none;
+    padding: 0 18px;
+    color: #fff;
+}
